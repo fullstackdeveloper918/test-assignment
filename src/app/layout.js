@@ -5,7 +5,6 @@ import nookies from "nookies";
 
 import {
   Dropdown,
-  DropdownButton,
   DropdownDivider,
   DropdownItem,
   DropdownLabel,
@@ -14,7 +13,6 @@ import {
 import {
   ArrowRightStartOnRectangleIcon,
   Bars3Icon,
-  ChevronDownIcon,
   Cog8ToothIcon,
   InformationCircleIcon,
   MoonIcon,
@@ -82,10 +80,6 @@ export default function RootLayout({ children }) {
             </div>
             <div className="header_div">
               <Dropdown>
-                <DropdownButton outline>
-                  Catalyst
-                  <ChevronDownIcon />
-                </DropdownButton>
                 {open && (
                   <DropdownMenu anchor="bottom">
                     <DropdownItem href="#">
