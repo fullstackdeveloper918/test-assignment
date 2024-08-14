@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { LayoutGroup, motion } from "framer-motion";
 import { Fragment, forwardRef, useId } from "react";
 import { TouchTarget } from "./button";
-import { Link } from "./link";
+import { Link } from "./Link";
 
 export function Sidebar({ className, ...props }) {
   return (

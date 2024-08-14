@@ -11,8 +11,6 @@ import {
   TableRow,
 } from "@/components/Table";
 
-// import { Avatar } from "@/components/avatar";
-
 import { Avatar } from "@/components/Avatar";
 import {
   Sidebar,
