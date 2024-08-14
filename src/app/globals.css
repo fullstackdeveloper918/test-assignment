@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* sign_up screen */
+.cl-cardBox.cl-signIn-start.🔒️.cl-internal-qk5yrq {
+  width: 30rem !important;
+}
+.cl-internal-w8uam1 input {
+  border: 1px solid #0000004a !important;
+  min-height: 40px;
+}
+
+.cl-internal-fo33lg button {
+  border: 1px solid #00000052 !important;
+  border-radius: 30px !important;
+  padding: 10px;
+}
+.cl-footer.🔒️.cl-internal-4x6jej > div {
+  padding: 0px 0px 30px !important;
+}
+
+.cl-footer.🔒️.cl-internal-4x6jej .cl-internal-1dauvpw {
+  display: none;
+}
+
+button.cl-formButtonPrimary.cl-button.🔒️.cl-internal-ttumny {
+  min-height: 40px;
+}
+
+.cl-card.cl-signIn-start.🔒️.cl-internal-1p733cp {
+  padding-bottom: 15px;
+}
+.cl-rootBox.cl-userButton-root.🔒️.cl-internal-nfscg9 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.cl-internal-wd8woj,
+.cl-internal-wd8woj > div {
+  background: #18181b !important;
+  color: #fff;
+}
+
+.cl-internal-wd8woj button:hover {
+  color: #ffffff7d;
+}
+
+.cl-internal-wd8woj button {
+  color: #fff;
+  gap: 0px;
+  padding-bottom: 0px;
+}
+
+.cl-internal-wd8woj .cl-userButtonPopoverFooter.🔒️.cl-internal-d50gl1 {
+  display: none;
+}
+
+.cl-internal-wd8woj {
+  padding: 0px 0px 20px;
+  border: 1px solid #ffffff24;
+  box-shadow: 0px 0px 40px 0px #0000005e;
+}
+.header_div button {
+  width: 100%;
+  min-width: 220px;
+  justify-content: space-between;
+}
