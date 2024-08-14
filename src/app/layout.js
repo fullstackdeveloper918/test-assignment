@@ -59,7 +59,6 @@ function TokenLogger() {
           secure: true,
           sameSite: "strict",
         });
-        console.log("User token saved in cookies:", token);
       }
     };
 
