@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { createContext, useContext, useState } from "react";
-import { Link } from "./link";
+import { Link } from "./Link";
 
 const TableContext = createContext({
   bleed: false,
