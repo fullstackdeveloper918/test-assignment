@@ -9,7 +9,7 @@ import {
   DropdownItem,
   DropdownLabel,
   DropdownMenu,
-} from "@/components/dropdown";
+} from "@/components/Dropdown";
 import {
   ArrowRightStartOnRectangleIcon,
   Bars2Icon,

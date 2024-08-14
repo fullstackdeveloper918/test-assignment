@@ -9,11 +9,11 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/table";
+} from "@/components/Table";
 
 // import { Avatar } from "@/components/avatar";
 
-import { Avatar } from "@/components/avatar";
+import { Avatar } from "@/components/Avatar";
 import {
   Sidebar,
   SidebarBody,
@@ -29,7 +29,6 @@ import {
   MegaphoneIcon,
   Square2StackIcon,
   TicketIcon,
-  
 } from "@heroicons/react/20/solid";
 
 const Page = () => {
