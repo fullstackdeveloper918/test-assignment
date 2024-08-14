@@ -2,7 +2,6 @@
 
 import * as Headless from "@headlessui/react";
 import clsx from "clsx";
-
 import { Button } from "./Button";
 import { Link } from "./Link";
 
@@ -22,7 +21,7 @@ export function DropdownMenu({ anchor = "bottom", className, ...props }) {
       anchor={anchor}
       className={clsx(
         className,
-        // Anchor positioning
+
         "[--anchor-gap:theme(spacing.2)] [--anchor-padding:theme(spacing.1)] data-[anchor~=start]:[--anchor-offset:-6px] data-[anchor~=end]:[--anchor-offset:6px] sm:data-[anchor~=start]:[--anchor-offset:-4px] sm:data-[anchor~=end]:[--anchor-offset:4px]",
         // Base styles
         "isolate w-max rounded-xl p-1",

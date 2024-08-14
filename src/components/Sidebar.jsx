@@ -1,10 +1,9 @@
 "use client";
-
 import * as Headless from "@headlessui/react";
 import clsx from "clsx";
 import { LayoutGroup, motion } from "framer-motion";
 import { Fragment, forwardRef, useId } from "react";
-import { TouchTarget } from "./button";
+import { TouchTarget } from "./Button";
 import { Link } from "./Link";
 
 export function Sidebar({ className, ...props }) {

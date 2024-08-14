@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import nookies from "nookies";
+
 import {
   Dropdown,
   DropdownButton,
@@ -12,7 +13,6 @@ import {
 } from "@/components/Dropdown";
 import {
   ArrowRightStartOnRectangleIcon,
-  Bars2Icon,
   Bars3Icon,
   ChevronDownIcon,
   Cog8ToothIcon,
