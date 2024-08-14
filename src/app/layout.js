@@ -55,10 +55,9 @@ function TokenLogger() {
     const saveTokenToCookies = async () => {
       const token = await getToken();
       if (token) {
-        // Save the token in cookies using nookies
         nookies.set(null, "userToken", token, {
           path: "/",
-          maxAge: 432000, // 5 days
+          maxAge: 432000,
           secure: true,
           sameSite: "strict",
         });
