@@ -28,7 +28,7 @@ import {
   TicketIcon,
 } from "@heroicons/react/20/solid";
 
-// component start
+// component started from here
 
 const Page = () => {
   const [state, setState] = useState([]);
