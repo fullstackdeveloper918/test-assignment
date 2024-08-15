@@ -58,28 +58,28 @@ const Page = () => {
 
   return (
     <>
-      <Sidebar className="w-[250px] hidden lg:block">
+      <Sidebar className="w-[250px] text-zinc-100 hidden lg:block">
         <SidebarBody>
           <SidebarSection>
             <SidebarItem href="/">
               <HomeIcon />
-              <SidebarLabel>Home</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Home</SidebarLabel>
             </SidebarItem>
             <SidebarItem href="/events">
               <Square2StackIcon />
-              <SidebarLabel>Events</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Events</SidebarLabel>
             </SidebarItem>
             <SidebarItem href="/orders">
               <TicketIcon />
-              <SidebarLabel>Orders</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Orders</SidebarLabel>
             </SidebarItem>
             <SidebarItem href="/broadcasts">
               <MegaphoneIcon />
-              <SidebarLabel>Broadcasts</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Broadcasts</SidebarLabel>
             </SidebarItem>
             <SidebarItem href="/settings">
               <Cog6ToothIcon />
-              <SidebarLabel>Settings</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Settings</SidebarLabel>
             </SidebarItem>
           </SidebarSection>
         </SidebarBody>
@@ -87,7 +87,7 @@ const Page = () => {
           <SidebarSection className="w-[100%]">
             <SidebarItem>
               <Avatar src="/jonathan.jpg" className="rounded-md" />
-              <SidebarLabel>Jonathan</SidebarLabel>
+              <SidebarLabel style={{color:"white"}}>Jonathan</SidebarLabel>
               <ChevronRightIcon />
             </SidebarItem>
           </SidebarSection>
@@ -95,7 +95,7 @@ const Page = () => {
       </Sidebar>
       <div className="grow p-6 lg:rounded-lg lg:bg-white lg:p-10 lg:shadow-sm lg:ring-1 lg:ring-zinc-950/5 dark:lg:bg-zinc-900 dark:lg:ring-white/10">
         <div className="container mx-auto px-4 py-6">
-          <h2 className="text-2xl font-semibold text-gray-100 mb-4">
+          <h2 className="text-2xl font-semibold text-black-100 mb-4">
             Test Table
           </h2>
           <div className="overflow-x-auto">
@@ -112,16 +112,16 @@ const Page = () => {
                 {state &&
                   state.map((item, index) => (
                     <TableRow key={item.id}>
-                      <TableCell className="font-medium text-zinc-300">
+                      <TableCell className="font-medium text-black-300">
                         {index + 1}
                       </TableCell>
-                      <TableCell className="font-medium text-zinc-300">
+                      <TableCell className="font-medium text-black-300">
                         {item?.firstname} {item?.lastname}
                       </TableCell>
-                      <TableCell className="text-zinc-300">
+                      <TableCell className="text-black-300">
                         {item.email}
                       </TableCell>
-                      <TableCell className="text-zinc-300">
+                      <TableCell className="text-black-300">
                         {item.age}
                       </TableCell>
                     </TableRow>

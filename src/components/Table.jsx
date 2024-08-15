@@ -49,7 +49,7 @@ export function TableHead({ className, ...props }) {
   return (
     <thead
       {...props}
-      className={clsx(className, "text-zinc-500 dark:text-zinc-400")}
+      className={clsx(className, "text-black-500 dark:text-zinc-400")}
     />
   );
 }
